@@ -1,5 +1,5 @@
 #!/bin/bash
-if (($# == 3))
+if (($# -eq 3))
 then
 if (($1 < 10))
 then day="d0$1"
